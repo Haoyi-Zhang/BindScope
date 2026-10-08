@@ -47,6 +47,14 @@ def main():
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
     import numpy as np
+    # Serif labels match scientific typesetting; the installed publication font
+    # is preferred, with ordinary serif fallbacks on machines without TeX fonts.
+    plt.rcParams.update({'font.family': 'serif',
+        'font.serif': ['Linux Libertine O', 'Libertinus Serif', 'Times New Roman', 'DejaVu Serif'],
+        'pdf.fonttype': 42, 'ps.fonttype': 42,
+        'axes.prop_cycle': plt.cycler(color=['#235789', '#9b4c24', '#717171']),
+        'axes.linewidth': .65, 'lines.linewidth': 1.1,
+        'legend.frameon': False, 'xtick.major.width': .65, 'ytick.major.width': .65})
     def finish(fig,name):
         fig.tight_layout();fig.savefig(o/(name+'.pdf'),bbox_inches='tight');fig.savefig(o/(name+'.png'),dpi=180,bbox_inches='tight');plt.close(fig)
     fig,ax=plt.subplots(figsize=(3.5,2.15))
