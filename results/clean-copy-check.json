@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "seconds": 168.39476439500004,
+  "checks": [
+    {
+      "check": "default reproduction from clean copied source",
+      "returncode": 0
+    },
+    {
+      "check": "fixed-output exhaustive_by_family.csv",
+      "equal": true,
+      "uncompressed_sha256": "aa8f967028192fb6772e7a3ab733878905b7349ee945c8b2c0f66987d825b371"
+    },
+    {
+      "check": "fixed-output histories_summary.csv",
+      "equal": true,
+      "uncompressed_sha256": "738144c7646f78ef076a943f3ecbc8f7ebcd23f8b4635c14a982e08a72c036c7"
+    },
+    {
+      "check": "fixed-output traces_summary.csv",
+      "equal": true,
+      "uncompressed_sha256": "3663507ef0a5a1c6f370a7b16e304397ede530aae78d1fcd07dfd6be0fe858e6"
+    },
+    {
+      "check": "fixed-output decisions.csv.gz",
+      "equal": true,
+      "uncompressed_sha256": "378d63ae77215f4fff8e908e625e99ac7eb5feb3ca81041d61e0fab965d0ffca"
+    },
+    {
+      "check": "fixed-output native_sqlite_summary.csv",
+      "equal": true,
+      "uncompressed_sha256": "8387d2705a2401c5ccba5902e98153178953effc6297299dc458c3859b59345c"
+    },
+    {
+      "check": "fixed-output native_sqlite_decisions.csv.gz",
+      "equal": true,
+      "uncompressed_sha256": "112fc93e3a7c35f19b7e34551d93ffa81c2df16cac078d036313e718bc7e17ca"
+    },
+    {
+      "check": "catalog_sync records",
+      "equal": true
+    },
+    {
+      "check": "binding_observation records",
+      "equal": true
+    },
+    {
+      "check": "raw verifier in copied source",
+      "returncode": 0
+    },
+    {
+      "check": "report regeneration",
+      "returncode": 0
+    },
+    {
+      "check": "clean LaTeX build",
+      "returncode": 0
+    },
+    {
+      "check": "page 1 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 2 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 3 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 4 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 5 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 6 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 7 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 8 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 9 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 10 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 11 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 12 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 13 rebuilt render",
+      "equal": true
+    },
+    {
+      "check": "page 14 rebuilt render",
+      "equal": true
+    }
+  ],
+  "timings_rerun": false,
+  "timing_note": "Primary full-budget timings were copied for reporting; not counted as independent timing replication.",
+  "paper_pages": 14
+}

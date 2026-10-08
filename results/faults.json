@@ -1,0 +1,168 @@
+{
+  "later_sequence_gap_recovers": true,
+  "negative_controls": [
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "mismatch": true,
+      "weakening": "omit_negative_slot_watch"
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "mismatch": true,
+      "weakening": "omit_absent_schema_watch"
+    },
+    {
+      "actual": [
+        "error",
+        "0A000"
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "id",
+          "value",
+          "extra"
+        ]
+      ],
+      "mismatch": true,
+      "weakening": "omit_path_watch"
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "mismatch": true,
+      "weakening": "lose_final_event_no_watermark"
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "mismatch": true,
+      "weakening": "writer_between_validation_and_execution"
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "mismatch": true,
+      "weakening": "cross_session_object_reuse"
+    }
+  ],
+  "scope": "constructed model protocol-weakening counterexamples"
+}

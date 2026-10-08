@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-29",
+  "scope": "Self-check, not independent peer review; no PostgreSQL engine validation",
+  "evaluated_source_hashes_unchanged": 19,
+  "clean_archive_commands": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "cwd": "bindscope-complete/artifact",
+      "exit_code": 0,
+      "seconds": 1.1300761699676514
+    },
+    {
+      "command": "python experiments/run_faults.py",
+      "cwd": "bindscope-complete/artifact",
+      "exit_code": 0,
+      "seconds": 1.0198371410369873
+    },
+    {
+      "command": "python experiments/run_exhaustive.py",
+      "cwd": "bindscope-complete/artifact",
+      "exit_code": 0,
+      "seconds": 16.645432233810425
+    },
+    {
+      "command": "python experiments/run_traces.py",
+      "cwd": "bindscope-complete/artifact",
+      "exit_code": 0,
+      "seconds": 45.78553605079651
+    },
+    {
+      "command": "/opt/pyvenv/bin/python experiments/report.py --paper-dir ../paper",
+      "cwd": "bindscope-complete/artifact",
+      "exit_code": 0,
+      "seconds": 7.637421930000073
+    },
+    {
+      "command": "bash build.sh",
+      "cwd": "bindscope-complete/paper",
+      "exit_code": 0,
+      "seconds": 6.925384830999974
+    }
+  ],
+  "deterministic_trace_csv_byte_identical": true,
+  "exhaustive_and_trace_json_equal": true,
+  "report_tables_byte_identical": true,
+  "raw_direct_bindscope_pairing": {
+    "decisions": 96000,
+    "action_differences": 0,
+    "observation_differences": 0
+  },
+  "engine_evidence": false
+}

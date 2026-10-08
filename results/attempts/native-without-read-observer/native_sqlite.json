@@ -1,0 +1,1039 @@
+{
+  "elapsed_seconds": 22.35389525200003,
+  "engine_version": "3.46.1",
+  "environment": {
+    "cgroup_cpu_max": "400000 100000",
+    "cgroup_memory_max": "4294967296",
+    "clock": {
+      "adjustable": false,
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "resolution": 1e-09
+    },
+    "cpu_count": 5,
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "sqlite": "3.46.1"
+  },
+  "first_mismatches": [
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "extra",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ],
+            [
+              1,
+              42
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 14
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 22
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 23
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 30
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 37
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 38
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 42
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 44
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 46
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 55
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 65
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "SUM(value)",
+            ""
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              4036
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "SUM(value)",
+            ""
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              836
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 78
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 85
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 87
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 88
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 90
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 91
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "SUM(value)",
+            ""
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              4036
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "SUM(value)",
+            ""
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              836
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 93
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "id",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 94
+    },
+    {
+      "actual": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              501
+            ],
+            [
+              1,
+              501
+            ]
+          ]
+        ]
+      ],
+      "fresh": [
+        "ok",
+        [
+          [
+            "value",
+            "INT"
+          ],
+          [
+            "value",
+            "INT"
+          ]
+        ],
+        [
+          [
+            [
+              1,
+              101
+            ],
+            [
+              1,
+              101
+            ]
+          ]
+        ]
+      ],
+      "policy": "native",
+      "profile": "shape",
+      "seed": 1201,
+      "step": 102
+    }
+  ],
+  "policies": [
+    "native",
+    "checkout",
+    "dependency",
+    "global_epoch",
+    "direct",
+    "prefix_strict",
+    "bindscope"
+  ],
+  "profiles": [
+    "stable",
+    "shadow",
+    "shape",
+    "mixed"
+  ],
+  "queries": [
+    "SELECT value FROM x WHERE id=$1",
+    "SELECT * FROM x WHERE id=$1",
+    "SELECT SUM(value) FROM x WHERE id>=$1",
+    "SELECT COUNT(*) FROM y WHERE id>=$1",
+    "SELECT a.value,b.value FROM x a JOIN y b ON a.id=b.id WHERE a.id=$1",
+    "SELECT value FROM main.x WHERE id=$1",
+    "SELECT value FROM aux.x WHERE id=$1",
+    "SELECT a.value,b.value FROM x a JOIN x b ON a.id=b.id WHERE a.id=$1"
+  ],
+  "scope": "Actual libsqlite3; original SQL; common three-catalog synchronization barrier; same-session fresh handle in matched transaction; no PostgreSQL",
+  "seeds": [
+    1201,
+    1301,
+    1409,
+    1511,
+    1601
+  ],
+  "steps": 1000
+}

@@ -1,0 +1,1264 @@
+{
+  "measurements": [
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 527.07005,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 544.47435,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2293.6388,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2283.82005,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2310.8378,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 597.2895,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5177.01075,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 576.742,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 4008.00235,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2095.09635,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 548.96555,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2337.155,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3848.8092,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 572.40245,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 569.12795,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 6361.8264,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 0
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 587.34695,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 593.95545,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 0
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 572.98035,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 695.52815,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 561.73435,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2132.5148,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2280.31875,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 574.6548,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 566.15505,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3872.34625,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2584.3373,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5729.5026,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 4234.6614,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2132.3118,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2351.7228,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 624.4429,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2424.72035,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 1
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 677.41625,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 652.376,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 570.6072,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 1
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 520.01985,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2330.4442,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 552.88595,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 560.4689,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2073.86315,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2110.9581,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 650.80665,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 548.5409,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 582.16215,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2621.6329,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2369.16005,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 553.9135,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5319.03605,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2691.35785,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 652.1092,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 580.8312,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 2
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 4086.02075,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3924.7074,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 2
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 538.8904,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 564.42645,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2890.66155,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2330.82055,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2180.24535,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 627.453,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 570.65635,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 614.20945,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5426.94595,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2747.60245,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2431.0815,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2207.5143,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 564.508,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 541.03355,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3823.2023,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 524.0054,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 4826.3197,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 3
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 617.95665,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 3
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 543.5018,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 533.14265,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 6294.2937,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2166.9005,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2451.4407,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 4182.0401,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 595.26285,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2699.4919,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 574.20065,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2397.916,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 550.60205,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 573.40545,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 607.94205,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 620.2771,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2182.2031,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2763.46235,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 684.7604,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 4
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3828.24395,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 4
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2479.62675,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2322.40055,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 570.5496,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 557.53895,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2777.24845,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2293.9211,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3075.07795,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5413.11805,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3335.48815,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 688.6908,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5444.74725,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 588.8983,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3921.06245,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 5
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 561.0873,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 575.09545,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 584.54275,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 650.86625,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 538.7241,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 5
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2415.8926,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 571.23415,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 5464.77795,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2524.29415,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 548.3927,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2067.61675,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3785.9587,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 610.68665,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2299.12845,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 64,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 550.8083,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 4096,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 676.76885,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 3997.2819,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 525.29985,
+      "path": 2,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2363.6052,
+      "path": 8,
+      "policy": "direct",
+      "repeat": 6
+    },
+    {
+      "cache": 4096,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 679.76735,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 64,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 526.75705,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 1024,
+      "deps": 4,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 540.315,
+      "path": 8,
+      "policy": "bindscope",
+      "repeat": 6
+    },
+    {
+      "cache": 1024,
+      "deps": 1,
+      "iterations": 20000,
+      "mode": "clean_decide",
+      "ns_per_op": 2061.0989,
+      "path": 2,
+      "policy": "direct",
+      "repeat": 6
+    }
+  ]
+}

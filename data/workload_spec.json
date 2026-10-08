@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "purpose": "Deterministic model workloads, not production DB traces",
+  "development_seeds": [7, 19],
+  "evaluation_seeds": [101, 211, 307, 401, 503, 601, 701, 809],
+  "steps_per_seed_per_profile": 2000,
+  "profiles": ["stable", "sparse_ddl", "shadow_heavy", "path_churn", "cancel_pairs", "namespace_churn"],
+  "sessions": 2,
+  "schemas": ["early", "base", "late", "unused"],
+  "relation_names": ["accounts", "branches", "tellers", "world", "orders", "items", "customers", "stock"],
+  "distributions_are_synthetic": true,
+  "no_parameters_selected_by_evaluation_results": true
+}

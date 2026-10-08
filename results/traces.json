@@ -1,0 +1,139 @@
+{
+  "actual_seeds": [
+    101,
+    211,
+    307,
+    401,
+    503,
+    601,
+    701,
+    809
+  ],
+  "actual_steps": 2000,
+  "first_counterexamples": {
+    "dependency": {
+      "actual": [
+        "ok",
+        [
+          [
+            9,
+            0
+          ]
+        ],
+        [
+          "count"
+        ]
+      ],
+      "events": [],
+      "fresh": [
+        "ok",
+        [
+          [
+            20,
+            0
+          ]
+        ],
+        [
+          "count"
+        ]
+      ],
+      "profile": "sparse_ddl",
+      "query": "SELECT COUNT(*) FROM orders WHERE value > $1",
+      "seed": 101,
+      "step": 321
+    },
+    "native_model": {
+      "actual": [
+        "error",
+        "0A000"
+      ],
+      "events": [],
+      "fresh": [
+        "ok",
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          "id",
+          "value",
+          "extra1"
+        ]
+      ],
+      "profile": "sparse_ddl",
+      "query": "SELECT * FROM accounts WHERE id = $1",
+      "seed": 101,
+      "step": 26
+    }
+  },
+  "scope": "model binding outcomes plus separate SQLite relational execution",
+  "specification": {
+    "development_seeds": [
+      7,
+      19
+    ],
+    "distributions_are_synthetic": true,
+    "evaluation_seeds": [
+      101,
+      211,
+      307,
+      401,
+      503,
+      601,
+      701,
+      809
+    ],
+    "no_parameters_selected_by_evaluation_results": true,
+    "profiles": [
+      "stable",
+      "sparse_ddl",
+      "shadow_heavy",
+      "path_churn",
+      "cancel_pairs",
+      "namespace_churn"
+    ],
+    "purpose": "Deterministic model workloads, not production DB traces",
+    "relation_names": [
+      "accounts",
+      "branches",
+      "tellers",
+      "world",
+      "orders",
+      "items",
+      "customers",
+      "stock"
+    ],
+    "schemas": [
+      "early",
+      "base",
+      "late",
+      "unused"
+    ],
+    "sessions": 2,
+    "steps_per_seed_per_profile": 2000,
+    "version": 1
+  },
+  "sqlite_bridge": {
+    "bindscope_executions": 3840,
+    "bindscope_mismatches": 0,
+    "checkout_executions": 3840,
+    "checkout_mismatches": 0,
+    "dependency_executions": 3837,
+    "dependency_mismatches": 159,
+    "direct_executions": 3840,
+    "direct_mismatches": 0,
+    "direct_native_executions": 3840,
+    "direct_native_mismatches": 0,
+    "fresh_executions": 3840,
+    "global_epoch_executions": 3840,
+    "global_epoch_mismatches": 0,
+    "native_aware_executions": 3840,
+    "native_aware_mismatches": 0,
+    "native_model_executions": 3832,
+    "native_model_mismatches": 429,
+    "prefix_strict_executions": 3840,
+    "prefix_strict_mismatches": 0
+  }
+}

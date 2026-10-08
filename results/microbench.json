@@ -1,0 +1,24 @@
+{
+  "case_order_seed": 94017,
+  "clean_iterations": 20000,
+  "environment": {
+    "cgroup_cpu_max": "400000 100000",
+    "cgroup_memory_max": "4294967296",
+    "clock": {
+      "adjustable": false,
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "resolution": 1e-09
+    },
+    "cpu_count": 5,
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "sqlite": "3.46.1"
+  },
+  "event_note": "Repeated notifications without executing dirty statements; measures marking fanout, not revalidation",
+  "garbage_collection": "disabled only in clean timed loop",
+  "measurements": 168,
+  "repeats": 7,
+  "scope": "Python guard control-plane, NOT PostgreSQL latency or throughput"
+}

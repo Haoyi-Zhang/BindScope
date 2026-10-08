@@ -1,0 +1,85 @@
+{
+  "commands": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "returncode": 0,
+      "seconds": 0.65415421900002
+    },
+    {
+      "command": "python experiments/run_faults.py",
+      "returncode": 0,
+      "seconds": 0.5753963879999446
+    },
+    {
+      "command": "python experiments/run_exhaustive.py",
+      "returncode": 0,
+      "seconds": 9.598909970000022
+    },
+    {
+      "command": "python experiments/run_histories.py",
+      "returncode": 0,
+      "seconds": 71.41216071999997
+    },
+    {
+      "command": "python experiments/run_traces.py",
+      "returncode": 0,
+      "seconds": 26.738816816000053
+    },
+    {
+      "command": "python experiments/run_catalog_sync.py",
+      "returncode": 0,
+      "seconds": 0.5751762650002092
+    },
+    {
+      "command": "python experiments/run_native_sqlite.py",
+      "returncode": 0,
+      "seconds": 24.569556582000132
+    },
+    {
+      "command": "python experiments/run_binding_observation.py",
+      "returncode": 0,
+      "seconds": 0.8188264729997172
+    },
+    {
+      "command": "python experiments/run_microbench.py",
+      "returncode": 0,
+      "seconds": 22.67979956199997
+    },
+    {
+      "command": "python experiments/run_native_pool.py",
+      "returncode": 0,
+      "seconds": 19.58601049400022
+    }
+  ],
+  "source_sha256": {
+    "bindscope/__init__.py": "c229934e9fee97b68d20201e004782e023fecafe90142a1d17b3f60473911b05",
+    "bindscope/guard.py": "80d69ddc6fbf4b899a489ca09d1784425ae2fc60c70bc8bfb034264d28070d67",
+    "bindscope/libpq.py": "57f900b6cc67bb0d274056b52c56fe12d333984bb418402bb79a5ebcd5234ae5",
+    "bindscope/model.py": "99fa195dddbf48fb07790110c2a66e745c0fdea74f7d3d2718964d8256f1c8fb",
+    "bindscope/native_sqlite.py": "61efc3fed018205f3cabea6b79cde507848062a02e2f43388f44837cfdf06282",
+    "bindscope/pool.py": "ed4059880350b80014ca9873d79fb01e527d3a259523c7dba9d6a491bd667a19",
+    "bindscope/sqlite_oracle.py": "8647358dbb8db3e215d2aca7a4108bbad9f5d4d9d4bad5235686aa85e4b3e51c",
+    "bindscope/syntax.py": "87a93500b63d14f6513bf9789897586b688bc5bd8a1e7c2ea8e6f960a05b0605",
+    "experiments/__init__.py": "efb1560fb2de5fbfacb543a13b77fbfb818837f9be4d8ec744ee753a9cb57892",
+    "experiments/common.py": "a8526a77dad92574ec80f921ee646c9cf4517fc3bb4275835fa510b3cd1bd4db",
+    "experiments/report.py": "7d8a3650e625f333b29040705c5de62a13a2ea08f49fad039bc368c3e98b8b62",
+    "experiments/reproduce.py": "eb5bbaa59277641a1091cab135185b0c95b962725ad41113331f2f4770c5a042",
+    "experiments/run_binding_observation.py": "675c3b7914902e2b69899ae632c34166e35bcb4e4b46e7ceb25215048421a22a",
+    "experiments/run_catalog_sync.py": "d9002b48b2169e6fd67b7cefe3f33c8d84f30912e65075e6e282381d7c4a4e38",
+    "experiments/run_exhaustive.py": "e4eca84b2cbbb1f1d52419fa4bdc4a710c4851684931b03363ffa2f88b6cfd9e",
+    "experiments/run_faults.py": "76121018d8a68569de437e11be08fea689c4f93a6f90c191c048dea2f6a9e6dd",
+    "experiments/run_histories.py": "22e3c72a5fa38c5743cb040d9c1c03f618d93588f85264052b653d74dd88263a",
+    "experiments/run_microbench.py": "dfe1d371b2a7f45ba97ff5046e1246d3fd9d2c46b828f25bfd3c2ced1757fe89",
+    "experiments/run_native_pool.py": "0f1a7cda0ac7545ef199f7c4fe27131fe7e60e0ea3218b60c25328c17b0a3121",
+    "experiments/run_native_sqlite.py": "ee1420414993cdebc29b0bcf6860d0957a9fe255e12294ebbd5181d95397d473",
+    "experiments/run_pool_stress.py": "f883698a454eef484f7d97b599f8f17cac50a256a5a0543ed06524a135485d8b",
+    "experiments/run_postgres.py": "dd849383b349194023410df189a6f0c844a93fb1dcacb0a8513091ae1e884fc7",
+    "experiments/run_traces.py": "0581db0faa94f0fb6c894ee081e204dab0f6cd702f5872fd8056a1bd54b3ff3b",
+    "tests/test_core.py": "a1314ef23e695ee6226ac66b533e9329885bba509df19f0aba84b83bc1e69226",
+    "tests/test_libpq.py": "51d77584dc36edc86a35180ad804229fc390efff76cbd7c6019e84508df190c9",
+    "tests/test_observation.py": "4972429de2008970df8fc35c49d49bba9040e4026d1e9774a884b864c99f8d17",
+    "tests/test_revision.py": "e3499eba208db92a209f5ccb277c43b60804d1e0ab88bfd88d9398577d87e66c",
+    "data/workload_spec.json": "8843028631c04bfd5402b1084f3009cc607081ac2afea3dbdddd18cd217ec32d"
+  },
+  "statement": "Optional PostgreSQL unavailability is NOT an engine validation pass. Timings are steady-state host-dependent measurements."
+}

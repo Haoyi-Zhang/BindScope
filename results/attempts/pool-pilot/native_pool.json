@@ -1,0 +1,30 @@
+{
+  "engine_version": "3.46.1",
+  "environment": {
+    "cgroup_cpu_max": "400000 100000",
+    "cgroup_memory_max": "4294967296",
+    "clock": {
+      "adjustable": false,
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "resolution": 1e-09
+    },
+    "cpu_count": 5,
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "sqlite": "3.46.1"
+  },
+  "leases_per_borrower": 30,
+  "measurements": 24,
+  "note": "Python threads/ctypes/queue and shared CPU scheduling are part of measured cost. Five repeats describe this environment, not population confidence bounds.",
+  "order_seed": 48271,
+  "queries": {
+    "aggregate": "SELECT SUM(value) FROM x WHERE id>=$1",
+    "point": "SELECT value FROM x WHERE id=$1"
+  },
+  "repeats": 1,
+  "scope": "Actual libsqlite3 original-SQL steady-state pool; NO context mutation in timed interval; catalog synchronization, fresh controls and 50 warmup executions/session outside timer",
+  "table_rows": 2048,
+  "total_executions": 3120
+}

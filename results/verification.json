@@ -1,0 +1,179 @@
+{
+  "status": "passed",
+  "scope": "Raw output/summary and paired-decision audit, not independent scientific validation",
+  "paired_model_decisions": {
+    "direct/bindscope": 96000,
+    "direct_native/native_aware": 96000
+  },
+  "paired_actual_sqlite_decisions": 20000,
+  "model_rows": 864000,
+  "actual_sqlite_pairs": 140000,
+  "pool_measurements": 240,
+  "pool_executions": 260000,
+  "binding_diagnostic_cases": 300,
+  "result_equal_read_different": 150,
+  "postmeasurement_reporting_changes": [
+    "experiments/report.py"
+  ],
+  "evaluated_source_snapshots": [
+    "bindscope/native_sqlite.py"
+  ],
+  "evaluated_source_manifest_checked": 28,
+  "totals": {
+    "model": {
+      "native_model": {
+        "executions": 96000,
+        "mismatches": 12451,
+        "existing": 94629,
+        "prepares": 1371,
+        "native_sufficient_prepares": 0,
+        "resolutions": 1371,
+        "errors": 219
+      },
+      "checkout": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 96000,
+        "native_sufficient_prepares": 92288,
+        "resolutions": 96000,
+        "errors": 0
+      },
+      "dependency": {
+        "executions": 96000,
+        "mismatches": 4299,
+        "existing": 94811,
+        "prepares": 18193,
+        "native_sufficient_prepares": 15648,
+        "resolutions": 18193,
+        "errors": 37
+      },
+      "global_epoch": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 63527,
+        "native_sufficient_prepares": 59815,
+        "resolutions": 63527,
+        "errors": 0
+      },
+      "direct": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 24583,
+        "native_sufficient_prepares": 20871,
+        "resolutions": 96000,
+        "errors": 0
+      },
+      "prefix_strict": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 41512,
+        "native_sufficient_prepares": 37800,
+        "resolutions": 41512,
+        "errors": 0
+      },
+      "bindscope": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 24583,
+        "native_sufficient_prepares": 20871,
+        "resolutions": 41512,
+        "errors": 0
+      },
+      "native_aware": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 13517,
+        "native_sufficient_prepares": 9805,
+        "resolutions": 41512,
+        "errors": 0
+      },
+      "direct_native": {
+        "executions": 96000,
+        "mismatches": 0,
+        "existing": 94848,
+        "prepares": 13517,
+        "native_sufficient_prepares": 9805,
+        "resolutions": 96000,
+        "errors": 0
+      }
+    },
+    "actual_sqlite": {
+      "native": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 2120,
+        "read_mismatches": 2541,
+        "explicit_prepares": 722,
+        "internal_reprepares": 7074,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      },
+      "checkout": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 0,
+        "read_mismatches": 0,
+        "explicit_prepares": 20000,
+        "internal_reprepares": 0,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      },
+      "dependency": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 2030,
+        "read_mismatches": 2435,
+        "explicit_prepares": 3758,
+        "internal_reprepares": 4666,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      },
+      "global_epoch": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 0,
+        "read_mismatches": 0,
+        "explicit_prepares": 13172,
+        "internal_reprepares": 3,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      },
+      "direct": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 0,
+        "read_mismatches": 0,
+        "explicit_prepares": 7808,
+        "internal_reprepares": 3378,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      },
+      "prefix_strict": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 0,
+        "read_mismatches": 0,
+        "explicit_prepares": 8623,
+        "internal_reprepares": 2767,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      },
+      "bindscope": {
+        "executions": 20000,
+        "fresh_controls": 20000,
+        "mismatches": 0,
+        "read_mismatches": 0,
+        "explicit_prepares": 7808,
+        "internal_reprepares": 3378,
+        "errors": 412,
+        "catalog_sync_prepares": 60000
+      }
+    }
+  }
+}

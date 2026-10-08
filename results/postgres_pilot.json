@@ -1,0 +1,28 @@
+{
+  "engine_evidence": false,
+  "environment": {
+    "cgroup_cpu_max": "400000 100000",
+    "cgroup_memory_max": "4294967296",
+    "clock": {
+      "adjustable": false,
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "resolution": 1e-09
+    },
+    "cpu_count": 5,
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "sqlite": "3.46.1"
+  },
+  "error": "connection to server at \"127.0.0.1\", port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+  "executables": {
+    "initdb": null,
+    "pg_ctl": null,
+    "postgres": null,
+    "psql": null
+  },
+  "libpq": "libpq.so.5",
+  "requested_run": true,
+  "status": "unavailable"
+}

@@ -1,0 +1,125 @@
+{
+  "counterexamples": {
+    "dependency": {
+      "actual": [
+        "ok",
+        [
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          "value"
+        ]
+      ],
+      "catalog_state": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "event": [
+        "create",
+        [
+          "a",
+          "y"
+        ]
+      ],
+      "family": "2schemas_2names",
+      "fresh": [
+        "ok",
+        [
+          100
+        ],
+        [
+          "value"
+        ]
+      ],
+      "path": [
+        "a",
+        "b"
+      ],
+      "query": "SELECT value FROM y WHERE id = $1"
+    },
+    "native_model": {
+      "actual": [
+        "error",
+        "0A000"
+      ],
+      "catalog_state": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "event": [
+        "column",
+        [
+          "b",
+          "y"
+        ]
+      ],
+      "family": "2schemas_2names",
+      "fresh": [
+        "ok",
+        [
+          4
+        ],
+        [
+          "id",
+          "value",
+          "extra1"
+        ]
+      ],
+      "path": [
+        "a"
+      ],
+      "query": "SELECT * FROM b.y WHERE id = $1"
+    }
+  },
+  "counts": {
+    "catalogs": 108,
+    "initial_resolutions": 2732,
+    "transitions": 60092
+  },
+  "policies": {
+    "bindscope": {
+      "mismatches": 0,
+      "reuse_checks": 47056
+    },
+    "checkout": {
+      "mismatches": 0,
+      "reuse_checks": 0
+    },
+    "dependency": {
+      "mismatches": 232,
+      "reuse_checks": 51296
+    },
+    "direct": {
+      "mismatches": 0,
+      "reuse_checks": 47056
+    },
+    "direct_native": {
+      "mismatches": 0,
+      "reuse_checks": 54918
+    },
+    "global_epoch": {
+      "mismatches": 0,
+      "reuse_checks": 14664
+    },
+    "native_aware": {
+      "mismatches": 0,
+      "reuse_checks": 54918
+    },
+    "native_model": {
+      "mismatches": 1906,
+      "reuse_checks": 60092
+    },
+    "prefix_strict": {
+      "mismatches": 0,
+      "reuse_checks": 43996
+    }
+  },
+  "scope": "finite abstract model; no PostgreSQL execution"
+}

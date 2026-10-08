@@ -1,0 +1,367 @@
+{
+  "model": {
+    "native_model": {
+      "executions": 96000,
+      "mismatches": 12451,
+      "prepares": 1371,
+      "resolutions": 1371,
+      "native_sufficient_prepares": 0
+    },
+    "checkout": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 96000,
+      "resolutions": 96000,
+      "native_sufficient_prepares": 92288
+    },
+    "dependency": {
+      "executions": 96000,
+      "mismatches": 4299,
+      "prepares": 18193,
+      "resolutions": 18193,
+      "native_sufficient_prepares": 15648
+    },
+    "global_epoch": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 63527,
+      "resolutions": 63527,
+      "native_sufficient_prepares": 59815
+    },
+    "direct": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 24583,
+      "resolutions": 96000,
+      "native_sufficient_prepares": 20871
+    },
+    "prefix_strict": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 41512,
+      "resolutions": 41512,
+      "native_sufficient_prepares": 37800
+    },
+    "bindscope": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 24583,
+      "resolutions": 41512,
+      "native_sufficient_prepares": 20871
+    },
+    "native_aware": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 13517,
+      "resolutions": 41512,
+      "native_sufficient_prepares": 9805
+    },
+    "direct_native": {
+      "executions": 96000,
+      "mismatches": 0,
+      "prepares": 13517,
+      "resolutions": 96000,
+      "native_sufficient_prepares": 9805
+    }
+  },
+  "engine": {
+    "native": {
+      "executions": 20000,
+      "mismatches": 2120,
+      "read_mismatches": 2541,
+      "explicit_prepares": 722,
+      "internal_reprepares": 7074,
+      "errors": 412
+    },
+    "checkout": {
+      "executions": 20000,
+      "mismatches": 0,
+      "read_mismatches": 0,
+      "explicit_prepares": 20000,
+      "internal_reprepares": 0,
+      "errors": 412
+    },
+    "dependency": {
+      "executions": 20000,
+      "mismatches": 2030,
+      "read_mismatches": 2435,
+      "explicit_prepares": 3758,
+      "internal_reprepares": 4666,
+      "errors": 412
+    },
+    "global_epoch": {
+      "executions": 20000,
+      "mismatches": 0,
+      "read_mismatches": 0,
+      "explicit_prepares": 13172,
+      "internal_reprepares": 3,
+      "errors": 412
+    },
+    "direct": {
+      "executions": 20000,
+      "mismatches": 0,
+      "read_mismatches": 0,
+      "explicit_prepares": 7808,
+      "internal_reprepares": 3378,
+      "errors": 412
+    },
+    "prefix_strict": {
+      "executions": 20000,
+      "mismatches": 0,
+      "read_mismatches": 0,
+      "explicit_prepares": 8623,
+      "internal_reprepares": 2767,
+      "errors": 412
+    },
+    "bindscope": {
+      "executions": 20000,
+      "mismatches": 0,
+      "read_mismatches": 0,
+      "explicit_prepares": 7808,
+      "internal_reprepares": 3378,
+      "errors": 412
+    }
+  },
+  "pool_1000_queries_per_second": {
+    "1/point/native": {
+      "median": 59.29792677844563,
+      "min": 57.60174888125884,
+      "max": 62.06406202831313
+    },
+    "1/point/checkout": {
+      "median": 39.76666195299167,
+      "min": 36.07909171896812,
+      "max": 44.960244353532836
+    },
+    "1/point/direct": {
+      "median": 51.59650951676979,
+      "min": 47.163617758875446,
+      "max": 51.7049928202447
+    },
+    "1/point/bindscope": {
+      "median": 58.063188542321335,
+      "min": 54.15424819498476,
+      "max": 60.62885705631378
+    },
+    "1/aggregate/native": {
+      "median": 11.257027706111788,
+      "min": 10.095048923635598,
+      "max": 11.544163467201763
+    },
+    "1/aggregate/checkout": {
+      "median": 9.084907105734656,
+      "min": 8.173840186842217,
+      "max": 10.153930334615056
+    },
+    "1/aggregate/direct": {
+      "median": 10.521101310167495,
+      "min": 9.260557109188932,
+      "max": 10.84401389178906
+    },
+    "1/aggregate/bindscope": {
+      "median": 10.819826006810777,
+      "min": 10.305491029441056,
+      "max": 11.281101262910262
+    },
+    "1/join4/native": {
+      "median": 59.85874772147677,
+      "min": 54.559517012966836,
+      "max": 60.82844941712963
+    },
+    "1/join4/checkout": {
+      "median": 34.113281200962156,
+      "min": 29.359422037464032,
+      "max": 34.57950970404781
+    },
+    "1/join4/direct": {
+      "median": 46.140163111013415,
+      "min": 37.91425494090988,
+      "max": 46.95063159867651
+    },
+    "1/join4/bindscope": {
+      "median": 56.65908568100255,
+      "min": 53.93845665246719,
+      "max": 57.84815507192955
+    },
+    "1/join12/native": {
+      "median": 55.84279850153668,
+      "min": 54.62219575109234,
+      "max": 56.1348925959873
+    },
+    "1/join12/checkout": {
+      "median": 17.707644801077986,
+      "min": 16.179819144570374,
+      "max": 18.441906739720224
+    },
+    "1/join12/direct": {
+      "median": 40.769307039195944,
+      "min": 39.72837235083268,
+      "max": 42.66679045724805
+    },
+    "1/join12/bindscope": {
+      "median": 52.52355734070289,
+      "min": 51.07488108746185,
+      "max": 54.06932206153781
+    },
+    "4/point/native": {
+      "median": 19.06255065277131,
+      "min": 18.027653880222648,
+      "max": 22.732041289570518
+    },
+    "4/point/checkout": {
+      "median": 16.178689614476873,
+      "min": 11.936639125856045,
+      "max": 19.055223352084752
+    },
+    "4/point/direct": {
+      "median": 16.57074634906688,
+      "min": 14.235279503876594,
+      "max": 20.654201167788536
+    },
+    "4/point/bindscope": {
+      "median": 18.62165108459665,
+      "min": 17.328909724784854,
+      "max": 22.912019631751605
+    },
+    "4/aggregate/native": {
+      "median": 17.012562399314337,
+      "min": 13.734321310821207,
+      "max": 20.018120001863288
+    },
+    "4/aggregate/checkout": {
+      "median": 13.025818252920201,
+      "min": 11.74730701503478,
+      "max": 14.31122629549299
+    },
+    "4/aggregate/direct": {
+      "median": 12.910830535524079,
+      "min": 11.908351989354506,
+      "max": 17.535945092571026
+    },
+    "4/aggregate/bindscope": {
+      "median": 14.163714924870131,
+      "min": 12.708835072846663,
+      "max": 18.568259102230243
+    },
+    "4/join4/native": {
+      "median": 18.453272190507302,
+      "min": 14.103249864048195,
+      "max": 24.538733163361705
+    },
+    "4/join4/checkout": {
+      "median": 17.066158704967997,
+      "min": 15.634792265830992,
+      "max": 17.402521559244352
+    },
+    "4/join4/direct": {
+      "median": 16.660617474138768,
+      "min": 11.422876439293853,
+      "max": 19.08629333113459
+    },
+    "4/join4/bindscope": {
+      "median": 18.71509389353249,
+      "min": 12.46141245748711,
+      "max": 23.63628894569057
+    },
+    "4/join12/native": {
+      "median": 19.08375094941661,
+      "min": 17.386873265376856,
+      "max": 25.12950237755248
+    },
+    "4/join12/checkout": {
+      "median": 16.199814735678718,
+      "min": 13.556838788675304,
+      "max": 18.5226813196388
+    },
+    "4/join12/direct": {
+      "median": 15.639817505225459,
+      "min": 11.805979726370209,
+      "max": 20.010160759430423
+    },
+    "4/join12/bindscope": {
+      "median": 19.905372645196906,
+      "min": 13.736034110528674,
+      "max": 23.9665813823857
+    },
+    "8/point/native": {
+      "median": 14.921725440595091,
+      "min": 12.940265856467995,
+      "max": 21.55639128247465
+    },
+    "8/point/checkout": {
+      "median": 15.21165604705464,
+      "min": 13.759494317669395,
+      "max": 15.77171925232556
+    },
+    "8/point/direct": {
+      "median": 16.64049948123243,
+      "min": 13.534328762461175,
+      "max": 18.41400285481493
+    },
+    "8/point/bindscope": {
+      "median": 16.195841016539088,
+      "min": 11.408384520330394,
+      "max": 19.05085351967329
+    },
+    "8/aggregate/native": {
+      "median": 14.452298811192199,
+      "min": 13.671044310499958,
+      "max": 15.794467728648769
+    },
+    "8/aggregate/checkout": {
+      "median": 11.458131706021968,
+      "min": 9.51719711121661,
+      "max": 13.587821453036788
+    },
+    "8/aggregate/direct": {
+      "median": 14.500286416907452,
+      "min": 11.981809719719529,
+      "max": 15.45035008755134
+    },
+    "8/aggregate/bindscope": {
+      "median": 12.4783056078173,
+      "min": 12.038272219499499,
+      "max": 13.820485451876355
+    },
+    "8/join4/native": {
+      "median": 17.698515487457648,
+      "min": 12.562956745136905,
+      "max": 19.47127618755216
+    },
+    "8/join4/checkout": {
+      "median": 14.270728389964434,
+      "min": 13.372329900085695,
+      "max": 16.28077220614297
+    },
+    "8/join4/direct": {
+      "median": 16.739344716589923,
+      "min": 13.372967510368746,
+      "max": 17.063056979237782
+    },
+    "8/join4/bindscope": {
+      "median": 16.47393073769751,
+      "min": 12.746598726275728,
+      "max": 21.884266892815763
+    },
+    "8/join12/native": {
+      "median": 16.73561040837818,
+      "min": 15.420663795889071,
+      "max": 21.26836828004503
+    },
+    "8/join12/checkout": {
+      "median": 13.490411366351493,
+      "min": 11.553106589637252,
+      "max": 15.056335046696583
+    },
+    "8/join12/direct": {
+      "median": 14.608347998897363,
+      "min": 12.415695102312466,
+      "max": 15.879807011117412
+    },
+    "8/join12/bindscope": {
+      "median": 15.406059790286399,
+      "min": 14.780956351821112,
+      "max": 19.329299965626706
+    }
+  }
+}

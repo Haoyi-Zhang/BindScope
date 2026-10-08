@@ -1,0 +1,94 @@
+{
+  "completed": [
+    {
+      "checks": 114688,
+      "errors": 10448,
+      "exact_mismatches": 16821,
+      "histories": 57344,
+      "mismatches": 16821,
+      "native_delegations": 0,
+      "policy": "native_model",
+      "prepares": 5024
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 0,
+      "policy": "checkout",
+      "prepares": 114688
+    },
+    {
+      "checks": 114688,
+      "errors": 7794,
+      "exact_mismatches": 9120,
+      "histories": 57344,
+      "mismatches": 9120,
+      "native_delegations": 0,
+      "policy": "dependency",
+      "prepares": 65542
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 0,
+      "policy": "global_epoch",
+      "prepares": 114688
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 0,
+      "policy": "direct",
+      "prepares": 81636
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 0,
+      "policy": "prefix_strict",
+      "prepares": 87084
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 0,
+      "policy": "bindscope",
+      "prepares": 81636
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 25366,
+      "policy": "native_aware",
+      "prepares": 56270
+    },
+    {
+      "checks": 114688,
+      "errors": 7456,
+      "exact_mismatches": 0,
+      "histories": 57344,
+      "mismatches": 0,
+      "native_delegations": 25366,
+      "policy": "direct_native",
+      "prepares": 56270
+    }
+  ]
+}
