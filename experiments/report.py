@@ -70,14 +70,14 @@ def main():
         cache=(64,1024,4096); vv=[[float(x['ns_per_op'])/1000 for x in m if x['mode']=='clean_decide' and int(x['cache'])==c and int(x['path'])==8 and int(x['deps'])==4 and x['policy']==pol] for c in cache]
         med=np.array([st.median(v) for v in vv]);err=np.array([[med[i]-min(v) for i,v in enumerate(vv)],[max(v)-med[i] for i,v in enumerate(vv)]])
         ax.errorbar(cache,med,yerr=err,marker='o',capsize=3,label=NAMES[pol])
-    ax.set_xscale('log',base=2);ax.set_xticks(cache,[str(c) for c in cache]);ax.set_xlabel('Cached statements',fontsize=9);ax.set_ylabel(r'Decision time ($\mu$s)',fontsize=9);ax.tick_params(labelsize=8);ax.legend(fontsize=8)
+    ax.set_xscale('log',base=2);ax.set_xticks(cache,[str(c) for c in cache]);ax.set_xlabel('Cached statements',fontsize=9);ax.set_ylabel('Decision time (\u03bcs)',fontsize=9);ax.tick_params(labelsize=8);ax.legend(fontsize=8)
     finish(fig,'clean_guard')
     fig,ax=plt.subplots(figsize=(3.5,2.2))
     for mode,label in [('irrelevant_event','Unwatched slot'),('all_watchers_event','Slot watched by all entries')]:
         cache=(64,1024,4096); vv=[[float(x['ns_per_op'])/1000 for x in m if x['mode']==mode and int(x['cache'])==c] for c in cache]
         med=np.array([st.median(v) for v in vv]);err=np.array([[med[i]-min(v) for i,v in enumerate(vv)],[max(v)-med[i] for i,v in enumerate(vv)]])
         ax.errorbar(cache,med,yerr=err,marker='o',capsize=3,label=label)
-    ax.set_xscale('log',base=2);ax.set_yscale('log');ax.set_xticks(cache,[str(c) for c in cache]);ax.set_xlabel('Cached statements',fontsize=9);ax.set_ylabel(r'Marking time ($\mu$s)',fontsize=9);ax.tick_params(labelsize=8);ax.legend(fontsize=7,loc='upper left')
+    ax.set_xscale('log',base=2);ax.set_yscale('log');ax.set_xticks(cache,[str(c) for c in cache]);ax.set_xlabel('Cached statements',fontsize=9);ax.set_ylabel('Marking time (\u03bcs)',fontsize=9);ax.tick_params(labelsize=8);ax.legend(fontsize=7,loc='upper left')
     finish(fig,'event_fanout')
     tables = {
         'history_table': ('@{}lrrr@{}', 'Policy & Mismatches & Prepares & Delegations', ['history_rows.tex']),
