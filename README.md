@@ -17,7 +17,7 @@ python -m unittest discover -s tests -v
 python experiments/verify_results.py
 ```
 
-The current suite contains 69 tests. Retained measurements include 864,000 model
+The current suite contains 70 tests. Retained measurements include 864,000 model
 decisions, 140,000 paired native uses, 300 read-observation pairs, and 260,000
 leased executions. These are the recorded study, not new measurements on every
 machine running CI. The timing comparison includes cases where BindScope is
