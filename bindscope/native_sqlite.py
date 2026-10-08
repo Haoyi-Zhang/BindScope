@@ -15,11 +15,15 @@ class SQLiteError(RuntimeError):
     def __init__(self, code:int, message:str):
         super().__init__(message); self.code=code
 
-_libname=ctypes.util.find_library('sqlite3')
-if not _libname and sys.platform == 'win32':
+_libname=None
+if sys.platform == 'win32':
+    # Use the DLL shipped with this interpreter, not an unrelated sqlite3.dll
+    # found on PATH (for example, a command-line client's private dependency).
     bundled = Path(sys.base_prefix) / 'DLLs' / 'sqlite3.dll'
     if bundled.is_file():
         _libname = str(bundled)
+if not _libname:
+    _libname=ctypes.util.find_library('sqlite3')
 if not _libname: raise ImportError('system libsqlite3 is required')
 lib=C.CDLL(_libname)
 P=C.c_void_p; I=C.c_int; S=C.c_char_p
